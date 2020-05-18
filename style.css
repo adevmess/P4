@@ -272,6 +272,21 @@ a:hover {
     margin-top: 80px;
 }
 
+.avis > p {
+    max-width: 550px;
+    margin: auto;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 900;
+    color: rgb(172, 31, 31);
+}
+
+.avis > p > span {
+    color: rgb(172, 165, 165);
+    font-weight: 100;
+    font-style: normal;
+    font-size: 14px;
+}
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
@@ -285,6 +300,10 @@ a:hover {
 
 #bloc-1-hero h1 {
     font-size: 32px;
+}
+
+.logo {
+    width: 100px;
 }
 
 .navbar {
@@ -361,10 +380,10 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+
 .navbar-brand > img {
     height: 40px;
 }
-
 
 @media (min-width: 768px) {
     .site-navigation {

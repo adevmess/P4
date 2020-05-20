@@ -481,6 +481,29 @@ nav .caret {
     margin-bottom: 40px;
 }
 
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* max-width: 0%;
+    max-width: 600px; */
+    /* margin-left: 10px;
+    margin-right: 10px; */
+}
+
+@media (max-width: 495px) {
+    .contact {
+        max-width: 95%;
+        width: 500px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+.horaire {
+    text-align: center;
+}
+
 .btn {
     margin: 0 5px 5px 0;
 }
@@ -734,11 +757,15 @@ p {
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
+    max-width: 247px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 40px auto;
 }
 
 h2 {
@@ -790,7 +817,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgb(114, 102, 69);
     padding: 40px 40px 40px 40px;
 }
 
@@ -1086,6 +1113,10 @@ h4 {
 
     form {
         padding: 5px;
+    }
+
+    textarea {
+        resize: vertical;
     }
 
     .close-lightbox {

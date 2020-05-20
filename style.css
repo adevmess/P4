@@ -301,7 +301,8 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 40px;
+    font-weight: 900;
 }
 
 .logo {
@@ -346,7 +347,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 20px;
+    font-size: 21px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -736,8 +737,9 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 17px;
     margin-top: 25px;
+    font-weight: 400;
 }
 
 .tight-width-whitespace {
@@ -752,7 +754,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #ffffff !important;
+    color: #861111 !important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -817,13 +819,17 @@ h4 {
 }
 
 .black-background {
-    background-color: rgb(114, 102, 69);
+    background-color: rgba(255, 254, 251, 0.92);
     padding: 40px 40px 40px 40px;
+    box-shadow: 2px 2px 20px rgba(88, 88, 88, 0.8);
 }
 
 .bold-link {
-    font-weight: 900;
+    font-weight: 700;
     text-decoration: underline !important;
+    display: block;
+    text-align: center;
+    margin-top: 50px;
 }
 
 .bgc-white {
@@ -838,8 +844,26 @@ h4 {
     background-color: #f3976c;
 }
 
+.tc-black {
+    color: black !important;
+}
+
 .tc-white {
+    color: #ffffff !important;
+    font-weight: 900;
+}
+.tcc-white {
+    color: #ffffff !important;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.tc-purple {
     color: #f3976c !important;
+}
+
+.shadow {
+    text-shadow: 1px 2px black;
 }
 
 .btn-atomic-tangerine {
@@ -854,8 +878,7 @@ h4 {
 
 .ltc-white {
     color: #ffffff !important;
-    text-align: center;
-    display: block;
+
     margin-top: 30px;
     font-size: 16px;
 }

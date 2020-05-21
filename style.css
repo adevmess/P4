@@ -62,7 +62,7 @@ a:hover {
 }
 
 .avis > p > span {
-    color: rgb(172, 165, 165);
+    color: rgb(71, 71, 71);
     font-weight: 100;
     font-style: normal;
     font-size: 16px;
@@ -368,7 +368,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757 !important;
+    color: #2e2c2c !important;
 }
 
 .container {
@@ -424,6 +424,7 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    font-weight: 900;
 }
 
 h3 {
@@ -449,7 +450,7 @@ h1 {
 }
 
 .white {
-    color: #ffffff !important;
+    color: #2f2f2f !important;
 }
 
 .portfolio-thumb {
@@ -484,7 +485,9 @@ h1 {
 .tc-black {
     color: black !important;
 }
-
+.tc-purple {
+    color: #f3976c;
+}
 .tc-white {
     color: #ffffff !important;
     font-weight: 900;
@@ -496,8 +499,9 @@ h1 {
     margin-top: 30px;
 }
 
-.tc-purple {
-    color: #f3976c !important;
+.tc-black-weight {
+    color: #000000 !important;
+    font-weight: 700;
 }
 
 .shadow {
@@ -506,12 +510,12 @@ h1 {
 
 .btn-atomic-tangerine {
     background: #f3976c;
-    color: #ffffff !important;
+    color: #2e2c2c !important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956 !important;
-    color: #ffffff !important;
+    color: #2e2c2c !important;
 }
 
 .ltc-white {

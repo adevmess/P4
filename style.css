@@ -90,10 +90,10 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
+/* .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
-}
+} */
 
 .b-parallax {
     background-attachment: fixed;
@@ -473,10 +473,10 @@ nav .caret {
     color: blue;
 }
 
-.mg-lg {
+/* .mg-lg {
     margin-top: 10px;
     margin-bottom: 40px;
-}
+} */
 
 .contact {
     display: flex;
@@ -499,6 +499,8 @@ nav .caret {
 
 .horaire {
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: auto;
 }
 
 .btn {

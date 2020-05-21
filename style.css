@@ -9,7 +9,7 @@ body {
 
 a,
 button {
-    transition: all 0.15s ease-in-out;
+    transition: all 0.1s ease-in-out;
     outline: none !important;
 }
 
@@ -741,8 +741,16 @@ p {
     font-weight: 400;
 }
 
+.whitespace {
+    text-align: center;
+    /* width: 220px; */
+    /* max-width: 600px; */
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .tight-width-whitespace {
-    max-width: 600px;
+    max-width: 700px;
     margin: auto auto auto auto;
 }
 

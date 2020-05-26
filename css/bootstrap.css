@@ -8,8 +8,6 @@
 
 html {
     font-family: sans-serif;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
 }
 
 body {
@@ -112,13 +110,6 @@ svg:not(:root) {
 
 figure {
     margin: 1em 40px;
-}
-
-hr {
-    height: 0;
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
 }
 
 pre {
@@ -1414,8 +1405,7 @@ a {
     color: #337ab7;
     text-decoration: none;
 }
-ls
-a:focus,
+ls a:focus,
 a:hover {
     color: #494d52;
     text-decoration: underline;
@@ -5129,7 +5119,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     max-height: 340px;
 }
 
-@media (max-device-width: 480px) and (orientation: landscape) {
+@media (max-width: 480px) and (orientation: landscape) {
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse {
         max-height: 200px;

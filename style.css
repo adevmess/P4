@@ -30,10 +30,6 @@ a:hover {
     position: relative;
 }
 
-/* .d-bloc {
-    color: rgba(255, 255, 255, 0.7);
-} */
-
 .bloc-bg-texture::before {
     content: "";
     background-size: 2px 2px;
